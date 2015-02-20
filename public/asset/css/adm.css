@@ -1,0 +1,44 @@
+
+
+.container {
+	margin-top: 100px;
+}
+
+#navigasi { width: 100%; background: #191970; font-family:'quoteregular', Arial, Sans Serif; border-bottom: 4px solid orange;position: fixed; z-index: 9000; top: 0px; left: 0px; height:50px; margin-top: 0px; margin-left: 0px; }
+.mn-topz {width:100%;height:30px;padding-top:5px;margin-top:12px;}
+.mn-userz {float:left;width:80%;margin-top:-10px;}
+.mn-userz .kirrri {float:left;margin-left:40px;}
+.mn-userz .kirrri div {
+	list-style-type: none;
+	float:left;
+	padding:6px 12px 6px 12px;
+	background: #fff;
+	margin-left:5px;
+	-moz-border-radius:5px;-webkit-border-radius:5px;-khtml-border-radius:5px;border-radius:5px;
+}
+.mn-userz .kirrri div a {color:#000;text-decoration:none;cursor:pointer;}
+.mn-userz .kirrri div:hover {background:orange;}
+.mn-userz .kirrri div a:hover {text-decoration:none;}
+.mn-userz .kannnan {float:right;margin-right:300px;}
+.mn-userz .kannnan div {
+	list-style-type: none;
+	float:left;
+	min-width:80px;
+	text-align:center;
+	padding:6px 10px 6px 10px;
+	background: #fff;
+	margin-left:40px;
+	-moz-border-radius:5px;-webkit-border-radius:5px;-khtml-border-radius:5px;border-radius:5px;
+}
+.mn-userz .kannnan div a {color:#000;text-decoration:none;cursor:pointer;}
+.mn-userz .kannnan div a:hover {text-decoration:none;}
+.mn-userz .kannnan div:hover {background:orange;}
+.mn-prf {float:right;min-width:145px;background:#fff;padding:4px;margin-right:40px;padding-bottom:0px;margin-top: -10px;}
+.mn-prf .skiri {float:left;}
+.mn-prf .skanan {float:left;margin-left:10px;margin-top:5px;}
+.mn-prf .skanan .name {}
+.mn-prf:hover {background:orange;}
+.mn-prf a {color:red;font-weight:bold;}
+.mn-prf a:hover {text-decoration:none;}
+.mn-prf .brrdr {margin-top:-4px;float:left;margin-left:15px;background:blue;width:3px;height:34px;}
+.mn-prf .skeluar {float:left;margin-left:15px;margin-top:5px;}

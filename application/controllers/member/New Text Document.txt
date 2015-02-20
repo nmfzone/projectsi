@@ -1,0 +1,22 @@
+CREATE TABLE booking (
+    id_booking int(5) AUTO_INCREMENT PRIMARY KEY,
+    tanggal_booking datetime,
+    tanggal_kadaluarsa datetime,
+    id_buku int(255),
+    id_member int(255),
+    CONSTRAINT fk_bku FOREIGN KEY (id_buku) REFERENCES buku(id_buku),
+    CONSTRAINT fk_mbr FOREIGN KEY (id_member) REFERENCES member(id_member)
+)
+
+
+CREATE TABLE peminjaman (
+    id_peminjaman int(5) AUTO_INCREMENT PRIMARY KEY,
+    tanggal_pinjam datetime,
+    tanggal_kembali datetime,
+    id_buku int(255),
+    id_member int(255),
+    id_booking int(255),
+    CONSTRAINT fk_bke FOREIGN KEY (id_buku) REFERENCES buku(id_buku),
+    CONSTRAINT fk_mbe FOREIGN KEY (id_member) REFERENCES member(id_member),
+    CONSTRAINT fk_bbo FOREIGN KEY (id_booking) REFERENCES booking(id_booking)
+)

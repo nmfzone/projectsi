@@ -1,0 +1,20 @@
+
+.space {
+	clear: both;
+}
+.space.h10 {
+	margin-top: 10px;
+}
+.space.h20 {
+	margin-top: 20px;
+}
+.space.h30 {
+	height: 30px;
+	width: 100%;
+}
+.space.h40 {
+	margin-top: 40px;
+}
+.space.h50 {
+	margin-top: 50px;
+}

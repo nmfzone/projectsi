@@ -1,0 +1,279 @@
+body {
+	background: #333333;
+	/*background: #F0F0F0;*/
+	width: 100%;
+	height: 100%;
+}
+#wrapper {
+	width: 75%;
+	margin: 0 auto;
+	padding: 0 auto;
+	margin-top: 70px;
+	margin-bottom: 30px;
+	position: center;
+	float: center;
+	font-family: 'PT Sans', Verdana, Arial, sans-serif;
+}
+#var_menu {
+	margin-bottom: 0px;
+	height: 50px;
+	width: 100%;
+}
+#main {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+#main > #wrap-area {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0 auto;
+	background: #fff;
+}
+#wrap-area > #articlee {
+	margin-top: 200px;
+	width: 60%;
+	margin: 0 auto;
+	padding: 0 auto;
+	background: #fff;
+	height: auto;
+	float: left;
+	padding: 30px 40px 0px 40px;
+}
+.asidebar {
+	width: 40%;
+	height: auto;
+	float: left;
+	padding: 0px 5px 0px 15px;
+	display: block;
+}
+.asidebar > #sidebar {
+	float: left;
+	width: 100%;
+}
+#articlee .judul h3 {
+	font-size: 25px;
+	color: #449D44;
+	font-weight: bold;
+}
+#articlee .images {
+	
+}
+#articlee .detail {
+	
+}
+#m-left {
+	width: 50%;
+	margin: 0 auto;
+	padding: 0 auto;
+	display: inline-block;
+}
+.search-area {
+	margin-left: 20%;
+}
+.search-area .asct {
+	display: inline-block;
+	vertical-align: top;
+}
+.search-area .stitle {
+	font-size: 40px;
+	font-weight: bold;
+	color: #177EE5;
+	text-shadow: 2px 2px 4px #000;
+}
+.search-area #searchid {
+	margin-top: 50px;
+}
+.cont-area {
+	float: right;
+}
+.cont-area2 {
+	float: left;
+}
+.cont-area > .btn {
+	padding: 5px 10px;
+	font-size: 15px;
+}
+#m-right {
+	width: 35%;
+	margin: 0 auto;
+	padding: 0 auto;
+	float: right;
+	margin-right: 40px;
+	display: inline-block;
+}
+.new-box {
+	width: 100%;
+	background: #EEE;
+	border: 1px solid #ccc;
+}
+.new-box > .ttl-box {
+	width: 100%;
+	height: 40px;
+	color: #000;
+	font-size: 23px;
+	background: #FFA500;
+	text-align: center;
+	text-shadow: 2px 2px 4px #333;
+}
+.new-box > .ttl-box > b {
+	padding-top: 4px;
+}
+.new-box > .content-box {
+	padding: 20px 20px 0px 20px;
+}
+.new-box > .content-box > .list {
+	margin-bottom: 7px;
+}
+.new-box > .content-box > .list > a {
+	color: #23527C;
+}
+.new-box > .content-box > .list > a:hover {
+	color: #AB02C9;
+	text-shadow: 1px 1px 1px #8B05B8;
+	text-decoration: none;
+}
+#footer {
+	background: #000;
+	color: #fff;
+	width:100%;
+	height: 60px;
+	margin: 0 auto;
+	padding: 0 auto;
+	text-align: center;
+	padding-top: 20px;
+}
+.reg-opt {
+	text-align: center;
+}
+.title {
+	line-height: 1.2em;
+	position: relative;
+	float: right;
+	margin-left: 40px;
+}
+div.icon {
+	margin-top: 4px;
+	width: 31px;
+	float: left;
+	height: 30px;
+	background-image: url(../images/magnify.gif);
+	background-repeat: no-repeat;
+	-webkit-transition-property: background-position, color;
+	-webkit-transition-duration: .2s, .1s;
+	-webkit-transition-timing-function: linear, linear;
+	-moz-transition-property: background-position, color;
+	-moz-transition-duration: .2s, .1s;
+	-ms-transition-duration: .2s, .1s;
+	-ms-transition-timing-property: linear, linear;
+	-o-transition-property: background-position, color;
+	-o-transition-duration: .2s, .1s;
+	-o-transition-timing-property: linear, linear;
+	transition-property: background-position, color;
+	transition-duration: .2s, .1s;
+	transition-timing-property: linear, linear;
+}
+div.icon:hover {
+	background-position: 0px -30px;
+	cursor: pointer;
+}
+input.search {
+	font-family: 'PT Sans Bold', Verdana, Arial, sans-serif;
+	color: #3B3B3B;
+}
+h4#results-text {
+	display: none;
+}
+#hasil {
+	position: absolute;
+	width: 30.5%;
+}
+ul#results {
+	background: #fff;
+	display: none;
+	width: 100%;
+	margin-top: 4px;
+	border: 1px solid #ababab;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-box-shadow: rgba(0, 0, 0, .15) 0 1px 3px;
+	-moz-box-shadow: rgba(0,0,0,.15) 0 1px 3px;
+	box-shadow: rgba(0, 0, 0, .15) 0 1px 3px;
+	list-style: none;
+}
+ul#results li {
+	background: #fff;
+	padding: 8px;
+	cursor: pointer;
+	list-style: none;
+	border-top: 1px solid #cdcdcd;
+	transition: background-color .3s ease-in-out;
+	-moz-transition: background-color .3s ease-in-out;
+	-webkit-transition: background-color .3s ease-in-out;
+}
+ul#results li:hover {
+	background-color: #cdcdcd;
+}
+ul#results li a {
+	display: block;
+	color: #000;
+}
+ul#results li a:hover {
+	color: blue;
+	text-decoration: none;
+}
+ul#results li:first-child {
+	border-top: none;
+}
+ul#results li h3, ul#results li h4 {
+	transition: color .3s ease-in-out;
+	-moz-transition: color .3s ease-in-out;
+	-webkit-transition: color .3s ease-in-out;
+	color: #616161;
+	line-height: 1.2em;
+}
+ul#results li:hover h3, ul#results li:hover h4  {
+	color: #3b3b3b;
+	font-weight: bold;
+}
+
+#navigasi { width: 100%; background: #191970; font-family:'quoteregular', Arial, Sans Serif; border-bottom: 4px solid orange;position: fixed; z-index: 9000; top: 0px; left: 0px; height:50px; margin-top: 0px; margin-left: 0px; }
+.mn-topz {width:100%;height:30px;padding-top:5px;margin-top:12px;}
+.mn-userz {float:left;width:80%;margin-top:-10px;}
+.mn-userz .kirrri {float:left;margin-left:40px;}
+.mn-userz .kirrri div {
+	list-style-type: none;
+	float:left;
+	padding:6px 12px 6px 12px;
+	background: #fff;
+	margin-left:5px;
+	-moz-border-radius:5px;-webkit-border-radius:5px;-khtml-border-radius:5px;border-radius:5px;
+}
+.mn-userz .kirrri div a {color:#000;text-decoration:none;cursor:pointer;}
+.mn-userz .kirrri div:hover {background:orange;}
+.mn-userz .kirrri div a:hover {text-decoration:none;}
+.mn-userz .kannnan {float:right;margin-right:300px;}
+.mn-userz .kannnan div {
+	list-style-type: none;
+	float:left;
+	min-width:80px;
+	text-align:center;
+	padding:6px 10px 6px 10px;
+	background: #fff;
+	margin-left:40px;
+	-moz-border-radius:5px;-webkit-border-radius:5px;-khtml-border-radius:5px;border-radius:5px;
+}
+.mn-userz .kannnan div a {color:#000;text-decoration:none;cursor:pointer;}
+.mn-userz .kannnan div a:hover {text-decoration:none;}
+.mn-userz .kannnan div:hover {background:orange;}
+.mn-prf {float:right;min-width:145px;background:#fff;padding:4px 15px 4px 4px;margin-right:40px;padding-bottom:0px;margin-top: -10px;}
+.mn-prf .skiri {float:left;}
+.mn-prf .skanan {float:left;margin-left:10px;margin-top:5px;}
+.mn-prf .skanan .name {}
+.mn-prf:hover {background:orange;}
+.mn-prf a {color:red;font-weight:bold;}
+.mn-prf a:hover {text-decoration:none;}
+.mn-prf .brrdr {margin-top:-4px;float:left;margin-left:15px;background:blue;width:3px;height:34px;}
+.mn-prf .skeluar {float:left;margin-left:15px;margin-top:5px;}
